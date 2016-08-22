@@ -1,0 +1,5 @@
+1. ĞŞ¸Ä´úÂë
+2. commit
+3. pull request
+4. push 
+5. merge
