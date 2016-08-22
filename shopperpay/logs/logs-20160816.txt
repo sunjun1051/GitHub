@@ -1,0 +1,276 @@
+==== Shopper Request: 2016-08-16 13:18:22 ===========
+==== IP: ::1
+array (
+  'url' => '',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 13:18:22 ===========
+==== IP: ::1
+array (
+  'url' => '',
+  'data' => false,
+)
+==== Shopper Request: 2016-08-16 13:56:45 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/order_inquiry_notification.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 13:56:45 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/order_inquiry_notification.jhtml',
+  'data' => '{"isSuccess":"0","errorCode":"1017","errorMessage":"所传参数格式不正确"}',
+)
+==== Shopper Request: 2016-08-16 13:57:36 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/order_inquiry_notification.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 13:57:36 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/order_inquiry_notification.jhtml',
+  'data' => '{"isSuccess":"0","errorCode":"1017","errorMessage":"所传参数格式不正确"}',
+)
+==== Shopper Request: 2016-08-16 13:59:18 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/order_inquiry_notification.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 13:59:18 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/order_inquiry_notification.jhtml',
+  'data' => '{"isSuccess":"0","errorCode":"1017","errorMessage":"所传参数格式不正确"}',
+)
+==== Shopper Request: 2016-08-16 14:00:12 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 14:00:12 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => '{"isSuccess":"1","errorCode":"","errorMessage":"","merOrderId":"2016081210344489","ordPackageInfo":{"gsOrdId":"1471312356537420"},"consigneeInfo":{"consigneeName":"刘林枫","consigneePhone":"15601718255","consigneeAddress":"江苏省苏州市姑苏区劳动路1号"}}',
+)
+==== Seller Request: 2016-08-16 14:00:12 ===========
+==== IP: ::1
+array (
+  'url' => 'http://localhost/shopperpay-sun/demo/gs_query_result.php',
+  'data' => 
+  array (
+    'isSuccess' => '1',
+    'errorCode' => '',
+    'errorMessage' => '',
+    'merOrderId' => '2016081210344489',
+    'ordPackageInfo' => '{"gsOrdId":"1471312356537420"}',
+    'consigneeInfo' => '{"consigneeName":"\\u5218\\u6797\\u67ab","consigneePhone":"15601718255","consigneeAddress":"\\u6c5f\\u82cf\\u7701\\u82cf\\u5dde\\u5e02\\u59d1\\u82cf\\u533a\\u52b3\\u52a8\\u8def1\\u53f7"}',
+  ),
+)
+==== Seller Response: 2016-08-16 14:00:12 ===========
+==== IP: ::1
+array (
+  'url' => 'http://localhost/shopperpay-sun/demo/gs_query_result.php',
+  'data' => '{"isSuccess":"1"}',
+)
+==== Shopper Request: 2016-08-16 16:06:43 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 16:06:43 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => '{"isSuccess":"1","errorCode":"","errorMessage":"","merOrdId":"2016081210344489","ordPackageInfo":{"gsOrdId":"1471312356537420"},"consigneeInfo":{"consigneeName":"刘林枫","consigneePhone":"15601718255","consigneeAddress":"江苏省苏州市姑苏区劳动路1号"}}',
+)
+==== Seller Request: 2016-08-16 16:06:43 ===========
+==== IP: ::1
+array (
+  'url' => 'http://localhost/shopperpay-sun/demo/gs_query_result.php',
+  'data' => 
+  array (
+    'isSuccess' => '1',
+    'errorCode' => '',
+    'errorMessage' => '',
+    'merOrdId' => '2016081210344489',
+    'ordPackageInfo' => '{"gsOrdId":"1471312356537420"}',
+    'consigneeInfo' => '{"consigneeName":"\\u5218\\u6797\\u67ab","consigneePhone":"15601718255","consigneeAddress":"\\u6c5f\\u82cf\\u7701\\u82cf\\u5dde\\u5e02\\u59d1\\u82cf\\u533a\\u52b3\\u52a8\\u8def1\\u53f7"}',
+  ),
+)
+==== Seller Response: 2016-08-16 16:06:43 ===========
+==== IP: ::1
+array (
+  'url' => 'http://localhost/shopperpay-sun/demo/gs_query_result.php',
+  'data' => '{"isSuccess":"1"}',
+)
+==== ChinaPay Result Data: 2016-08-16 16:07:20 ===========
+==== IP: 192.168.0.105
+array (
+  'uri' => '/shopperpay-sun/return_url.php',
+  'data' => 
+  array (
+    'merid' => '808080071198021',
+    'orderno' => '1907269975439676',
+    'transdate' => '20160816',
+    'amount' => '000000024000',
+    'currencycode' => 'USD',
+    'transtype' => '0001',
+    'status' => '1001',
+    'checkvalue' => '0D4950723E2EAC66AE772F4E02839EB3717B3481C4E5CFD53AF7F41D70CBE7400892027153C31480A2BF08B97AA2A826E2A916D4911B4AE66BB43049B428C47DBFD0D1F6FA52F38E84A06A17E7B06DCEAEE5A12D22954441B8FDF398CD6FFCEAEC885851B638499160F1460BD65ED03E503D9E3F1515169DEA61DC1E95B7FEAB',
+    'GateId' => '8613',
+    'Priv1' => '000000003626',
+  ),
+)
+==== Shopper Request: 2016-08-16 16:07:20 ===========
+==== IP: 192.168.0.105
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/update_order.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1907269975439676","apiKey":"GS_API_KEY","orderInfo":{"merid":"808080071198021","orderno":"1907269975439676","transdate":"20160816","amount":"000000024000","currencycode":"USD","transtype":"0001","status":"1001","checkvalue":"0D4950723E2EAC66AE772F4E02839EB3717B3481C4E5CFD53AF7F41D70CBE7400892027153C31480A2BF08B97AA2A826E2A916D4911B4AE66BB43049B428C47DBFD0D1F6FA52F38E84A06A17E7B06DCEAEE5A12D22954441B8FDF398CD6FFCEAEC885851B638499160F1460BD65ED03E503D9E3F1515169DEA61DC1E95B7FEAB","GateId":"8613","Priv1":"000000003626"}}',
+  ),
+)
+==== Shopper Response: 2016-08-16 16:07:20 ===========
+==== IP: 192.168.0.105
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/update_order.jhtml',
+  'data' => '{"isSuccess":"0","errorCode":"1008","errorMessage":"该订单不存在"}',
+)
+==== ChinaPay Return Error: 2016-08-16 16:07:20 ===========
+==== IP: 192.168.0.105
+array (
+  'error' => '向海淘天下同步支付状态失败',
+  'detail' => 
+  array (
+    'req' => 
+    array (
+      'gsMerId' => '5020001',
+      'gsOrdId' => '1907269975439676',
+      'apiKey' => 'GS_API_KEY',
+      'orderInfo' => 
+      array (
+        'merid' => '808080071198021',
+        'orderno' => '1907269975439676',
+        'transdate' => '20160816',
+        'amount' => '000000024000',
+        'currencycode' => 'USD',
+        'transtype' => '0001',
+        'status' => '1001',
+        'checkvalue' => '0D4950723E2EAC66AE772F4E02839EB3717B3481C4E5CFD53AF7F41D70CBE7400892027153C31480A2BF08B97AA2A826E2A916D4911B4AE66BB43049B428C47DBFD0D1F6FA52F38E84A06A17E7B06DCEAEE5A12D22954441B8FDF398CD6FFCEAEC885851B638499160F1460BD65ED03E503D9E3F1515169DEA61DC1E95B7FEAB',
+        'GateId' => '8613',
+        'Priv1' => '000000003626',
+      ),
+    ),
+    'res' => 
+    array (
+      'isSuccess' => '0',
+      'errorCode' => '1008',
+      'errorMessage' => '该订单不存在',
+    ),
+  ),
+)
+==== ChinaPay Result Data: 2016-08-16 16:09:27 ===========
+==== IP: 192.168.0.105
+array (
+  'uri' => '/shopperpay-sun/return_url.php',
+  'data' => 
+  array (
+    'merid' => '',
+    'orderno' => '',
+    'transdate' => '',
+    'amount' => '',
+    'currencycode' => '',
+    'transtype' => '',
+    'status' => '',
+    'checkvalue' => '',
+    'GateId' => '',
+    'Priv1' => '',
+  ),
+)
+==== ChinaPay Return Error: 2016-08-16 16:09:27 ===========
+==== IP: 192.168.0.105
+array (
+  'error' => '支付失败',
+  'detail' => 
+  array (
+    'merid' => '',
+    'orderno' => '',
+    'transdate' => '',
+    'amount' => '',
+    'currencycode' => '',
+    'transtype' => '',
+    'status' => '',
+    'checkvalue' => '',
+    'GateId' => '',
+    'Priv1' => '',
+  ),
+)
+==== Shopper Request: 2016-08-16 16:31:45 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Request: 2016-08-16 16:54:04 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => 
+  array (
+    'parameters' => '{"gsMerId":"5020001","gsOrdId":"1471312356537420  ","merOrdId":"2016081210344489"}',
+  ),
+)
+==== Shopper Response: 2016-08-16 16:54:04 ===========
+==== IP: ::1
+array (
+  'url' => 'http://192.168.0.101:8080/pay_plugin/gsorder_detail.jhtml',
+  'data' => '{"isSuccess":"1","errorCode":"","errorMessage":"","merOrdId":"2016081210344489","ordPackageInfo":{"gsOrdId":"1471312356537420"},"consigneeInfo":{"consigneeName":"刘林枫","consigneePhone":"15601718255","consigneeAddress":"江苏省苏州市姑苏区劳动路1号"}}',
+)
+==== Seller Request: 2016-08-16 16:54:04 ===========
+==== IP: ::1
+array (
+  'url' => 'http://localhost/shopperpay-sun/demo/gs_query_result.php',
+  'data' => 
+  array (
+    'isSuccess' => '1',
+    'errorCode' => '',
+    'errorMessage' => '',
+    'merOrdId' => '2016081210344489',
+    'ordPackageInfo' => '{"gsOrdId":"1471312356537420"}',
+    'consigneeInfo' => '{"consigneeName":"\\u5218\\u6797\\u67ab","consigneePhone":"15601718255","consigneeAddress":"\\u6c5f\\u82cf\\u7701\\u82cf\\u5dde\\u5e02\\u59d1\\u82cf\\u533a\\u52b3\\u52a8\\u8def1\\u53f7"}',
+  ),
+)
+==== Seller Response: 2016-08-16 16:54:04 ===========
+==== IP: ::1
+array (
+  'url' => 'http://localhost/shopperpay-sun/demo/gs_query_result.php',
+  'data' => '{"isSuccess":"1"}',
+)
