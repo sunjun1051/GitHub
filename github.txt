@@ -1,0 +1,4 @@
+1. ĞŞ¸Ä´úÂë
+2. pull request
+3. push 
+4. merge
